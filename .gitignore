@@ -27,3 +27,82 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# Arquivos de ferramentas do Dart/Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Arquivos gerados pelo Android
+android/**/generated/
+android/app/debug/
+android/app/release/
+android/key.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# Arquivos gerados pelo iOS (CocoaPods e build)
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ServiceDefinitions.json
+
+# Web
+build/web/
+
+# Variáveis de ambiente (Chaves de API)
+.env
+
+# Logs e arquivos de sistema
+*.log
+.DS_Store
